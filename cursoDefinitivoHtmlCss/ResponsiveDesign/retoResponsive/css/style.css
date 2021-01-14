@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.c{
+    width: 100%;
+    height: calc(26vh - 1rem );
+    border-radius: 10px;
+}
+
+.c1{
+    display: flex;
+    background-color: transparent;
+    height: calc(11vh - 1rem);
+}
+
+.c11{
+    width: 25%;
+    height: auto;
+    background-color: #797d62;
+    padding: 1px;
+}
+
+.c12{
+    width: 75%;
+    height: auto;
+    background-color: #9b9b7a;
+}
+
+.c2{
+    width: 100%;
+    background-color: #f1dca7;
+}
+
+.c3{
+    width: 100%;
+    background-color: #ffcb69;
+}
+
+.c4{
+    width: 100%;
+    background-color: #d08c60;
+}
+
+.c5{
+    display: flex;
+    width: 100%;
+    height: calc(11vh - 1rem);
+    background-color: #997b66;
+    justify-content: flex-end;
+}
+
+.c51{
+    width: 20%;
+    background-color: #d9ae94;
+    height: auto;
+}
+
+@media(min-width: 600px){
+    .c1{
+        flex-wrap: wrap;
+        width: calc(30% - .2rem);
+        height: calc(30vh - 1rem);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c11{
+
+        width: calc(100% - 1rem);
+        height: calc(10vh - 1rem);
+    }
+
+    .c12{
+        width: calc(100% - 1rem);
+        height: calc(20vh - 1rem);
+    }
+
+    .c2{
+        width: calc(70% - .2rem);
+        height: calc(30vh - 1rem);
+    }
+
+    .c3{
+        width: calc(80% - .2rem);
+        height: calc(55vh - 1rem);
+    }
+
+    .c4{
+        width: calc(20% - .2rem);
+        height: calc(55vh - 1rem);
+    }
+
+    .c5{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: calc(15vh - 1rem);
+    }
+
+    .c51{
+        width: calc(100% - 1rem);
+        height: calc(14vh - 1rem);
+    }
+
+}
+
+@media(min-width: 800px){
+    .c1{
+        width: 100%;
+        height: calc(15vh - 2rem) ;
+        flex-flow: row-reverse wrap;
+        align-items: unset;
+    }
+
+    .c11{
+        width: 25%;
+        height: auto;
+    }
+
+    .c12{
+        width: 75%;
+        height: auto;
+    }
+
+    .c2{
+        width: calc(33% - 1rem);
+        height: calc(70vh - 2rem);
+    }
+
+    .c3{
+        width: calc(33.5% - 1rem);
+        height: calc(70vh - 2rem);
+    }
+
+    .c4{
+        width: calc(33.5% - 1rem);
+        height: calc(70vh - 2rem);
+    }
+
+    .c5{
+        width: 100%;
+        height: calc(16vh - 2rem);
+        justify-content: flex-start;
+    }
+
+    .c51{
+        width: 15%;
+        height: calc(16vh - 2rem);
+    }
+}
+
