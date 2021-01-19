@@ -1,0 +1,3 @@
+Este es un nuevo archivo creado con Vim!
+
+Y un nuevo texto con Nano 4.8
